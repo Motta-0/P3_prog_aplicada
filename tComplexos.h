@@ -4,7 +4,7 @@
 
 using namespace std;
 
-struct complex
+struct tComplexos
 {
   float real;
   float imaginario;
@@ -42,7 +42,7 @@ void div()
 
   cout << "\n\nO resultado é: " << Ncomplex[2].real << "/" << denominador;
 
-  if (Ncomplex[2].imaginario > 0)
+  if (Ncomplex[2].imaginario >= 0)
   {
     cout << "+" << Ncomplex[2].imaginario << "j/" << denominador << endl;
   }
