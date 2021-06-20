@@ -54,7 +54,7 @@ void module()
 {
   Ncomplex[2].mod1 = sqrt(pow(Ncomplex[0].real,2) + pow(Ncomplex[0].imaginario,2));
 
-  cout << "O modulo do primeiro número complexo é: " << Ncomplex[2].mod1 << endl;
+  cout << "\n\n\nO modulo do primeiro número complexo é: " << Ncomplex[2].mod1 << endl;
 
   Ncomplex[2].mod2 = pow(pow(Ncomplex[1].real,2) + pow(Ncomplex[1].imaginario,2), 0.5);
 
